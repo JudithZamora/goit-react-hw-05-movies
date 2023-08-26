@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link, Outlet } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import { getTrendingMovies, getMovieCast, getMovieReviews } from '../MovieApi/MovieApi';
 import './staylepages.css';
