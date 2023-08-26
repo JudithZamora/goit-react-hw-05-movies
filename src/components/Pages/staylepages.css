@@ -12,12 +12,37 @@
 
 .pages-info {
   display: inline-block;
-  color: whitesmoke;
   margin-top: 20px;
   margin-left: 30px;
+  font-size: 20px;
 }
 
 .pages-title {
-  color: whitesmoke;
-  margin-left: 30px
+  color: rgb(31, 30, 30);
+  margin-left: 30px;
+}
+/* staylepages.css */
+.line {
+  height: 1px;
+  background-color: gray;
+  margin: 20px 0;
+}
+
+.page-ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.page-li {
+  margin-top: 20px;
+  list-style: disc; 
+  margin-left: 20px; 
+}
+
+.page-ul a {
+  text-decoration: none;
+  color: rgb(31, 30, 30);
+}
+.img-cast{
+  margin-bottom: 10px;
 }

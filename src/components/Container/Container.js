@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
-import { getTrendingMovies } from '../MovieApi';
+import { Link } from 'react-router-dom';
+import { getTrendingMovies } from '../MovieApi/MovieApi';
 import './stylecontainer.css'
 
 const Container = () => {

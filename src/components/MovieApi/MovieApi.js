@@ -17,4 +17,16 @@ export const searchMovies = async (query) => {
   return response.data.results;
 };
 
-// Add more functions for other API calls
+export const getMovieCast = async (movieId) => {
+  const response = await axios.get(
+    `https://api.themoviedb.org/3/movie/${movieId}/credits?api_key=${API_KEY}`
+  );
+  return response.data.cast;
+};
+
+export const getMovieReviews = async (movieId) => {
+  const response = await axios.get(
+    `https://api.themoviedb.org/3/movie/${movieId}/reviews?api_key=${API_KEY}`
+  );
+  return response.data.results;
+};
