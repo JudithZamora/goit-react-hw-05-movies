@@ -1,0 +1,11 @@
+.title{
+  color: rgb(240, 235, 243);
+  margin-bottom: 20px;
+}
+.movielist {
+  list-style: none;
+  padding: 0;
+  color: rgb(247, 241, 241);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
