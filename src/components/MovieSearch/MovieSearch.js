@@ -18,6 +18,7 @@ const MovieSearch = () => {
 
   return (
     <div>
+      <Link className='back' to="/container">&#8592; Go Back</Link> 
       <h2 className='search-title'>Search Movies</h2>
       <input
       className='input'

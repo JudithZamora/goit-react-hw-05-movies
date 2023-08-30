@@ -66,6 +66,7 @@ const Pages = () => {
 
   return (
     <div>
+      <Link className='back' to="/container">&#8592; Go Back</Link> 
       {movieDetails && (
         <div className='pages-container'>
           <div className='pages-content'>
